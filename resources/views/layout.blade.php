@@ -64,7 +64,7 @@
                   Activities
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Todo List Done</a></li>
+                  <li><a class="dropdown-item" href="/dashboard/complated">Todo List Done</a></li>
                   <li><a class="dropdown-item" href="/dashboard/todolist">Todo List</a></li>
                 </ul>
               </li>
