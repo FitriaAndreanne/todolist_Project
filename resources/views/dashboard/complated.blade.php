@@ -22,7 +22,7 @@
         <div class="wrapper" style="color: #212529; max-height: 600px;">
             <div class="d-flex align-items-start justify-content-between">
                 <div class="d-flex flex-column">
-                    <div class="h5">Todo's Complated</div>
+                    <div class="h5">Todo's Completed</div>
                     <br>
                     <p class="text-justify" style="color: aliceblue;">
                         Here's a list of activities you have done
@@ -71,7 +71,7 @@
                                 <p>{{ $item['description'] }}</p>
                                 <span style="color: aliceblue;">
                                     @if ($item['status'] == 1)
-                                        Complated On : {{ \Carbon\Carbon::parse($item['done_time'])->format('j F, Y') }}
+                                        Completed On : {{ \Carbon\Carbon::parse($item['done_time'])->format('j F, Y') }}
                                         @else
                                         Target Complate : {{\Carbon\Carbon::parse($item['date'])->format('j F, Y') }}
                                     @endif

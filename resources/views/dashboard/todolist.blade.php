@@ -34,7 +34,7 @@
                     </p>
                     <br>
                     <span>
-                        <a href="/dashboard/maketodo" class="text-success">Create</a>  <a href="/dashboard/complated" class="text-warning">Complated</a>
+                        <a href="/dashboard/maketodo" class="text-success">Create</a>  <a href="/dashboard/complated" class="text-warning">Completed</a>
                     </span>
                 </div>
                 <div class="info btn ml-md-4 ml-0">
@@ -76,7 +76,7 @@
                                 <p>{{ $item['description'] }}</p>
                                 <span style="color: aliceblue;">
                                     @if ($item['status'] == 1)
-                                        Complated On : {{ \Carbon\Carbon::parse($item['done_time'])->format('j F, Y') }}
+                                        Completed On : {{ \Carbon\Carbon::parse($item['done_time'])->format('j F, Y') }}
                                         @else
                                         Target Complate : {{\Carbon\Carbon::parse($item['date'])->format('j F, Y') }}
                                     @endif
