@@ -1,0 +1,38 @@
+.bg-1 {
+    background-color: #DD5353;
+}
+
+.bg-2 {
+    background-color: #DD5353;
+}
+
+.row2 {
+    display: flex;
+}
+
+.image-login img {
+    width: 400px;
+    height: auto;
+}
+
+.image-welcome img {
+    width: 600px;
+    height: auto;
+    margin-left: 60%;
+    margin-top: 5%;
+}
+
+.fas .fa-trash:hover{
+    color: white;
+}
+
+.welcome {
+    color: #DD5353;
+}
+
+.todolist {
+    width: 500px;
+    height: 500px;
+    margin-left: 105px;
+    margin-top: 20px;
+}
