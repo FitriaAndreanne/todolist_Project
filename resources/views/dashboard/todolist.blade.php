@@ -78,7 +78,7 @@
                                     @if ($item['status'] == 1)
                                         Completed On : {{ \Carbon\Carbon::parse($item['done_time'])->format('j F, Y') }}
                                         @else
-                                        Target Complate : {{\Carbon\Carbon::parse($item['date'])->format('j F, Y') }}
+                                        Target Complete : {{\Carbon\Carbon::parse($item['date'])->format('j F, Y') }}
                                     @endif
                                 </span>
                             </div>    
