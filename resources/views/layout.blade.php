@@ -39,7 +39,6 @@
                 {{ Auth::user()->name }}
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Change Password</a></li>
                 <li><a class="dropdown-item" href="/logout">Logout</a></li>
               </ul>
             </li>
